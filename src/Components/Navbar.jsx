@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router'
 
+import navlogo from '../assets/image/logo.png'
+
 const Navbar = () => {
   return (
     <>
@@ -12,7 +14,7 @@ const Navbar = () => {
 
     <div className='nav_row'>
 
-<Link className='nav_logo' ><img src="" alt="" /></Link>
+<Link className='nav_logo' ><img src={navlogo} alt="" /></Link>
 
 
 
