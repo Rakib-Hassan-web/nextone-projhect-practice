@@ -24,7 +24,7 @@ const Navbar = () => {
 
 <RiSearch2Line className='text-2xl text-prymary'/>
 
-<input type="text"  c/>
+<input type="text"  className='w-full text-[16px] outline-none border-none text-prymary '  placeholder='Search in products... '/>
 
 </div>
 
