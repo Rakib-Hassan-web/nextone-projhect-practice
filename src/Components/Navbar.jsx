@@ -9,12 +9,12 @@ const Navbar = () => {
     
     
 
-    <div className='container'>
+    <div className='container py-[27px]'>
 
 
     <div className='nav_row'>
 
-<Link className='nav_logo' ><img src={navlogo} alt="" /></Link>
+<Link className='nav_logo' ><img src={navlogo} alt=""  className='w-[119px]'/></Link>
 
 
 
