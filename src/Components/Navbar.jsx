@@ -3,6 +3,9 @@ import { Link } from 'react-router'
 
 import navlogo from '../assets/image/logo.png'
 import { RiSearch2Line } from "react-icons/ri";
+import { RiUserLine } from "react-icons/ri";
+import { RiShoppingCartLine } from "react-icons/ri";
+
 
 
 const Navbar = () => {
@@ -29,7 +32,12 @@ const Navbar = () => {
 </div>
 
 
-<div className="nav_icon"></div>
+<div className="nav_icon flex items-center gap-[10px]">
+
+<RiUserLine className='text-2xl'/>
+<RiShoppingCartLine className='text-2xl'/>
+
+</div>
 
 
     </div>
