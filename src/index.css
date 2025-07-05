@@ -5,3 +5,11 @@
 @utility container{
   margin-inline:auto;
 }
+
+
+
+/* -----------variables */
+
+@theme {
+  --color-prymary:#4B5563
+}
