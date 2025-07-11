@@ -7,7 +7,7 @@ const Banner = () => {
  <>
 
 
-<section id='banner'    style={{background}} className='w-full h-screen'></section>
+<section id='banner'    style={{background: `url(${bannerbg})`}} className='w-full h-screen'></section>
 
 
 
