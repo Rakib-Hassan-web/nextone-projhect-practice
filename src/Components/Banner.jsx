@@ -7,7 +7,12 @@ const Banner = () => {
  <>
 
 
-<section id='banner'    style={{background: `url(${bannerbg})` ,backgroundRepeat: 'no-repeat' ,backgroundPosition:'center'}} className='w-full h-screen'></section>
+<section id='banner'    style={{background: `url(${bannerbg})` ,backgroundRepeat: 'no-repeat' ,backgroundPosition:'center'}} className='py-[148px] w-ful'>
+
+
+    <div className="container"></div>
+
+</section>
 
 
 
