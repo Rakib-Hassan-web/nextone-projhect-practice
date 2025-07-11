@@ -7,10 +7,13 @@ const Banner = () => {
  <>
 
 
-<section id='banner'    style={{background: `url(${bannerbg})` ,backgroundRepeat: 'no-repeat' ,backgroundPosition:'center'}} className='py-[148px] w-ful'>
+<section id='banner'    style={{background: `url(${bannerbg})` ,backgroundRepeat: 'no-repeat' ,backgroundPosition:'center' ,backgroundSize:'cover'}} className='py-[148px] w-ful'>
 
 
-    <div className="container"></div>
+    <div className="container">
+        <h2>Starting from: $49.99</h2>
+        
+    </div>
 
 </section>
 
