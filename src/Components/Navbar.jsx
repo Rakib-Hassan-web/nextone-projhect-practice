@@ -36,15 +36,15 @@ return (
 
             <div className="nav_icon flex items-center  w-[78px]">
 
-                <RiUserLine className='text-2xl mr-[10px]' />
-                <RiShoppingCartLine className='text-2xl relative' />
+                <RiUserLine className='text-2xl mr-[10px] cursor-pointer' />
+                <RiShoppingCartLine className='text-2xl relative cursor-pointer' />
 
                 <div
                     className='  right-[204px] top-[32px] w-[20px] h-[20px] bg-[#0EA5E9] rounded-full text-[14px] text-white flex justify-center items-center absolute'>
                     3</div>
             </div>
 
-
+                  
         </div>
 
 
