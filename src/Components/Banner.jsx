@@ -1,10 +1,13 @@
 import React from 'react'
 
+import bannerbg from '../assets/image/bannerimg.png'
+
 const Banner = () => {
   return (
  <>
 
 
+<section id='banner'    style={{background}} className='w-full h-screen'></section>
 
 
 
@@ -12,7 +15,6 @@ const Banner = () => {
 
 
 
- 
  </>
   )
 }
