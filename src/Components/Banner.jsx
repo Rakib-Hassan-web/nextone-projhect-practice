@@ -12,7 +12,8 @@ const Banner = () => {
 
     <div className="container">
         <h2>Starting from: $49.99</h2>
-        
+        <h2>Exclusive collection
+             for everyone</h2>
     </div>
 
 </section>
