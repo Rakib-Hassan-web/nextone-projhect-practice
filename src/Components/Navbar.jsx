@@ -5,6 +5,7 @@ import navlogo from '../assets/image/logo.png'
 import { RiSearch2Line } from "react-icons/ri";
 import { RiUserLine } from "react-icons/ri";
 import { RiShoppingCartLine } from "react-icons/ri";
+import Cart from './Cart';
 
 
 
@@ -50,6 +51,10 @@ return (
 
 
     </div>
+
+
+
+    <Cart />
 
 
 </>
